@@ -1,0 +1,322 @@
+@font-face {
+    font-family:"Beyno" ;
+    src: url(./../font/BEYNO.ttf);
+}
+@font-face {
+    font-family: "Cantarell";
+    src: url(./../font/Cantarell-Regular.ttf);
+}
+@font-face {
+    font-family:"Panther" ;
+    src: url(./../font/PantheraRegular-MVZ9J.ttf);
+}
+@font-face {
+    font-family: "Wakanda";
+    src: url(./../font/WakandaForever-Regular.ttf);
+}
+body {
+    
+    background: radial-gradient( #11213F 0%, #0B0B0B 10.1%, rgba(2, 23, 64, 0.837641) 94.57%, rgba(2, 23, 64, 0) 150%);
+    overflow-x: hidden;
+     
+}
+
+/* style navbar*/
+.head{
+    display: flex;
+}
+.navbar{
+    padding: 10px;
+    display: flex;
+    /* width:100vh; */
+    margin-top: 1px;
+    
+    
+    
+    
+}
+.nav-logo{
+    transform: translateX(80px);
+    
+}
+.item{
+    transform: translateX(800px);
+    display:flex;
+    justify-content: space-between;
+    margin:10px;
+    color: white;
+    
+} 
+
+
+/*style ligne vertical et icône sur le côté*/
+.cote-gauche{
+    position: fixed;
+    margin-left: 30px;
+    width: 50px;
+}
+.vertical-line1{
+    width: 1px; /* Largeur de la ligne */
+    height: 300px; /* Hauteur de la ligne (100% de la hauteur de la page) */
+    background-color:white; /* Couleur de la ligne (noir ici) */
+    position: absolute; /* Position absolue pour que la ligne soit indépendante du flux de la page */
+    transform: translateX(-25px);
+    
+    
+}
+.vertical-line {
+    width: 1px; /* Largeur de la ligne */
+    height: 180px; /* Hauteur de la ligne (100% de la hauteur de la page) */
+    background-color:white; /* Couleur de la ligne (noir ici) */
+    
+    
+}
+
+.icone-cote-gauche{
+    margin-top: 12px;
+    transform: translateX(-12px);
+    
+}
+
+/*style intro*/
+.pantherHome1{
+    width:90%;
+}
+.accueil{
+    display: flex;
+
+}
+.intro{
+    width: 500px;
+    margin-left: 150px;
+    margin-top: 80px;
+    color: white;
+}
+
+/*style body*/
+.texte{
+    
+}
+/* style slide */
+#slide{
+    height: 250px;
+    background-color: #3D2DA6;
+}
+.card{
+    display: flex;
+    width: 600px;
+    background-color: #021740;
+}
+.card-content{
+    width: 80%;
+    position: relative;
+    color: white;
+    font-size: 14px;
+    margin:50px 10px;
+    text-align: left;
+
+}
+
+/* fin style slide */
+.texte-prince{
+    width: 500px;
+    margin-left: 170px;
+    margin-top: 80px;
+    color: white;
+    
+}
+.prince{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.profile{
+    width: 350px;
+    background-color: white;
+    border-radius: 20px;
+    padding:200px 40px 60px 40px;
+    align-items: center;
+    /* position: relative; */
+}
+.PantherHome3{
+    width: 70%;
+    margin-left: 40px;
+}
+.Pantherhome2{
+    width:80%;
+}
+.prince-profile-img{
+    /* position: relative; */
+    /* width: 400px; */
+    transform: translateY(200px);
+    
+    
+}
+.boutton{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.btn{
+    background-color: #3D2DA6;
+    border-radius: 5px;
+    width: max-content;
+    height: 30px;
+    color: white;
+    border-color:transparent;
+
+
+
+}
+.prince-img{
+    align-items: center;
+}
+
+/* style formaulaire de contact*/
+#back-contact{
+    background-image: url(./../Pantherhome4.png);
+    background-size: cover;
+    /* height: 600px; */
+    margin-bottom: 0;
+}
+.contact{
+    
+    width: 600px;
+    /* background-color: #F2CEF2 opacity transparent; */
+    /* background:linear-gradient(rgba(255, 255, 255), rgba(255, 255, 255) 25%, rgba(242, 206, 242, 0.2) 10%, rgba(158, 145, 183) 100%);
+     */
+     background: linear-gradient(white,transparent);
+    border-radius: 90px;
+    border-color: transparent;
+    text-align: center;
+    margin: 100px auto;
+    padding: 50px;
+
+
+}
+.formulaire{
+    width: 400px;
+    height: 40px;
+    border-radius: 40px;
+    border-color: black;
+    background-color: transparent;
+    margin-bottom: 10px;
+    
+
+
+}
+.message{
+    width: 400px;
+    height: 200px;
+    border-radius:40px ;
+    border-color:black;
+    background-color: transparent;
+}
+.envoyer{
+    border-radius: 40px;
+    background-color: pink;
+    height: 40px;
+    width: 100px;
+    margin: 10px;
+    color: white;
+    border-color: none;
+}
+/* style footer */
+#footer{
+    background: linear-gradient( #021740,#3D2DA6);
+    margin-top: 0;
+    height: 400px;
+    padding: 40px;
+    
+
+}
+.footer-droit{
+    color: white;
+    transform: translateX(650px);
+}
+.trois-div{
+    display: flex;
+    align-items: center;
+    margin-top: 80px;
+    margin-left: 300px;
+
+}
+.cercle-groupe{
+    
+}
+.cercle-img{
+    width:200px;
+    
+    
+}
+.footer-logo{
+    
+    transform: translate(-170px,-110px);
+    width:120px ;
+    
+}
+.pages{
+    color: white;
+    margin: auto 50px;
+}
+.footer-titre{
+    color: white;
+    margin-bottom: 20px;
+}
+.reseau{
+    margin:80px 100px;
+}
+/* ANIMATION */
+/* CSS */
+.animate-fade-in-left {
+    opacity: 0;
+    transform: translateX(-20px); /* Commencez avec un décalage de -20px vers la gauche */
+    transition: opacity 1s ease, transform 1s ease;
+  }
+/* CSS */
+.fade-in-visible {
+    opacity: 1;
+    transform: translateX(0); 
+  }
+  /* style texte */
+  .soratra{
+    color: white;
+    text-decoration: none;
+  }
+  .sous-titre{
+    color: #DF99F2;
+    font-family: Beyno;
+  }
+
+/* CSS WAKANDA */
+.intro-wakanda{
+    position:absolute;
+    width:125%;
+    margin-top:0;
+    transform: translate(-80px,-30px);
+}
+.W-container{
+    display: flex;
+    transform: translateY(450px);
+    margin-left: 50px;
+    margin-bottom: 450px;
+    background-image: url("./../Pantherwakanda2.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    justify-content: space-between;
+}
+.content-gauche{
+    width: 500px;
+    margin-left: 20px;
+}
+.content-droit{
+    width: 500px;
+    margin-right: 70px;
+}
+/* style zoom */
+.image-selectionnee {
+    transform: scale(1.2); /* Zoom de 20% (120%) */
+    transition: transform 0.3s ease; /* Animation de transition fluide */
+  }
+  
